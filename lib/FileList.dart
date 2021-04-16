@@ -8,7 +8,7 @@ class FileList extends StatefulWidget {
 }
 
 class _FileListState extends State<FileList> {
-  var _showedFile = <File>[for (int i = 0; i < 50; ++i) File()];
+  var _showedFile = <File>[for (int i = 0; i < 50; ++i) File('Nama File')];
 
   @override
   Widget build(BuildContext context) {
